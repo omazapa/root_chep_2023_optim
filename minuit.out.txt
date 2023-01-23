@@ -1,0 +1,81 @@
+
+Processing minuit.C...
+GSLMultiMin
+GSLMultiMin   ConjugateFR
+Minimum: f(0.999034,0.998065): 9.34528e-07
+Cpu Time (sec) = 0
+Real Time (sec) = 0.000160933
+
+===============
+GSLMultiMin   ConjugatePR
+Minimum: f(0.999213,0.998423): 6.20985e-07
+Cpu Time (sec) = 0
+Real Time (sec) = 2.12193e-05
+
+===============
+GSLMultiMin   BFGS
+Minimum: f(0.998896,0.997789): 1.22092e-06
+Cpu Time (sec) = 0
+Real Time (sec) = 1.81198e-05
+
+===============
+GSLMultiMin   BFGS2
+Minimum: f(0.999913,0.999824): 7.99168e-09
+Cpu Time (sec) = 0
+Real Time (sec) = 1.3113e-05
+
+===============
+GSLMultiMin   SteepestDescent
+Minimum: f(0.998884,0.997765): 1.24735e-06
+Cpu Time (sec) = 0
+Real Time (sec) = 0.000342846
+
+===============
+GSLSimAn
+GSLSimAn   
+Minimum: f(1.001,1.00175): 6.95621e-06
+Cpu Time (sec) = 0.01
+Real Time (sec) = 0.00248289
+
+===============
+Genetic
+Info in <GeneticMinimizer::SetVariable>: Variables should be limited - set automatic range to 50 times step size for x : [-1.500000, -0.500000]
+Info in <GeneticMinimizer::SetVariable>: Variables should be limited - set automatic range to 50 times step size for y : [0.500000, 1.500000]
+Genetic   
+Minimum: f(-0.698456,0.5): 2.89954
+Cpu Time (sec) = 45.31
+Real Time (sec) = 45.306
+
+===============
+Minuit2
+Minuit2   Migrad
+Minimum: f(0.999925,0.999841): 1.25622e-08
+Cpu Time (sec) = 0
+Real Time (sec) = 0.00068903
+
+===============
+Minuit2   Simplex
+Minimum: f(1.00465,1.00657): 0.0007768
+Cpu Time (sec) = 0
+Real Time (sec) = 0.000159025
+
+===============
+Minuit2   Combined
+Minimum: f(0.999925,0.999841): 1.25622e-08
+Cpu Time (sec) = 0
+Real Time (sec) = 0.000114918
+
+===============
+Minuit2   Scan
+Minimum: f(-0.995,0.99): 3.98003
+Cpu Time (sec) = 0
+Real Time (sec) = 7.10487e-05
+
+===============
+Minuit2   Fumili2
+Minimum: f(0.999925,0.999841): 1.25622e-08
+Cpu Time (sec) = 0
+Real Time (sec) = 0.000105858
+
+===============
+(int) 0

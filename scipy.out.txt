@@ -1,0 +1,179 @@
+
+Processing scipy.C...
+=== Scipy Minimization
+=== Method: Nelder-Mead
+=== Initial value: (-1,1)
+/usr/local/lib/python3.10/dist-packages/scipy/optimize/_minimize.py:549: RuntimeWarning: Method Nelder-Mead does not use gradient information (jac).
+  warn('Method %s does not use gradient information (jac).' % method,
+/usr/local/lib/python3.10/dist-packages/scipy/optimize/_minimize.py:554: RuntimeWarning: Method Nelder-Mead does not use Hessian information (hess).
+  warn('Method %s does not use Hessian information (hess).' % method,
+=== Status: 0
+=== Message: Optimization terminated successfully.
+=== Function calls: 172
+Minimum: f(1.00012,1.00026): 3.36317e-08
+Cpu Time (sec) = 0.01
+Real Time (sec) = 0.00172091
+
+===============
+=== Scipy Minimization
+=== Method: L-BFGS-B
+=== Initial value: (-1,1)
+/usr/local/lib/python3.10/dist-packages/scipy/optimize/_minimize.py:554: RuntimeWarning: Method L-BFGS-B does not use Hessian information (hess).
+  warn('Method %s does not use Hessian information (hess).' % method,
+=== Status: 0
+=== Message: CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+=== Function calls: 44
+Minimum: f(0.993002,0.984164): 0.000405565
+Cpu Time (sec) = 0
+Real Time (sec) = 0.000656843
+
+===============
+=== Scipy Minimization
+=== Method: Powell
+=== Initial value: (-1,1)
+/usr/local/lib/python3.10/dist-packages/scipy/optimize/_minimize.py:549: RuntimeWarning: Method Powell does not use gradient information (jac).
+  warn('Method %s does not use gradient information (jac).' % method,
+/usr/local/lib/python3.10/dist-packages/scipy/optimize/_minimize.py:554: RuntimeWarning: Method Powell does not use Hessian information (hess).
+  warn('Method %s does not use Hessian information (hess).' % method,
+=== Status: 0
+=== Message: Optimization terminated successfully.
+=== Function calls: 500
+Minimum: f(1,1): 3.00846e-26
+Cpu Time (sec) = 0
+Real Time (sec) = 0.00291896
+
+===============
+=== Scipy Minimization
+=== Method: CG
+=== Initial value: (-1,1)
+/usr/local/lib/python3.10/dist-packages/scipy/optimize/_minimize.py:554: RuntimeWarning: Method CG does not use Hessian information (hess).
+  warn('Method %s does not use Hessian information (hess).' % method,
+=== Status: 0
+=== Message: Optimization terminated successfully.
+=== Function calls: 57
+Minimum: f(1.00106,1.00213): 1.13277e-06
+Cpu Time (sec) = 0
+Real Time (sec) = 0.00111389
+
+===============
+=== Scipy Minimization
+=== Method: BFGS
+=== Initial value: (-1,1)
+/usr/local/lib/python3.10/dist-packages/scipy/optimize/_minimize.py:554: RuntimeWarning: Method BFGS does not use Hessian information (hess).
+  warn('Method %s does not use Hessian information (hess).' % method,
+=== Status: 0
+=== Message: Optimization terminated successfully.
+=== Function calls: 39
+Minimum: f(1.00001,1.00001): 1.12382e-10
+Cpu Time (sec) = 0
+Real Time (sec) = 0.00121999
+
+===============
+=== Scipy Minimization
+=== Method: TNC
+=== Initial value: (-1,1)
+/usr/local/lib/python3.10/dist-packages/scipy/optimize/_minimize.py:554: RuntimeWarning: Method TNC does not use Hessian information (hess).
+  warn('Method %s does not use Hessian information (hess).' % method,
+=== Status: 0
+=== Message: Converged (|f_n-f_(n-1)| ~= 0)
+=== Function calls: 66
+Minimum: f(0.884576,0.781883): 0.0133577
+Cpu Time (sec) = 0
+Real Time (sec) = 0.000535011
+
+===============
+=== Scipy Minimization
+=== Method: COBYLA
+=== Initial value: (-1,1)
+/usr/local/lib/python3.10/dist-packages/scipy/optimize/_minimize.py:549: RuntimeWarning: Method COBYLA does not use gradient information (jac).
+  warn('Method %s does not use gradient information (jac).' % method,
+/usr/local/lib/python3.10/dist-packages/scipy/optimize/_minimize.py:554: RuntimeWarning: Method COBYLA does not use Hessian information (hess).
+  warn('Method %s does not use Hessian information (hess).' % method,
+=== Status: 0
+=== Message: Maximum number of function evaluations has been exceeded.
+=== Function calls: 1000
+Minimum: f(-0.44409,0.204757): 2.09108
+Cpu Time (sec) = 0.01
+Real Time (sec) = 0.00105786
+
+===============
+=== Scipy Minimization
+=== Method: SLSQP
+=== Initial value: (-1,1)
+/usr/local/lib/python3.10/dist-packages/scipy/optimize/_minimize.py:554: RuntimeWarning: Method SLSQP does not use Hessian information (hess).
+  warn('Method %s does not use Hessian information (hess).' % method,
+=== Status: 0
+=== Message: Optimization terminated successfully
+=== Function calls: 46
+Minimum: f(0.933438,0.869429): 0.00478292
+Cpu Time (sec) = 0
+Real Time (sec) = 0.00103903
+
+===============
+=== Scipy Minimization
+=== Method: trust-constr
+=== Initial value: (-1,1)
+=== Status: 0
+=== Message: `gtol` termination condition is satisfied.
+=== Function calls: 28
+Minimum: f(0.999598,0.999195): 1.61717e-07
+Cpu Time (sec) = 0.01
+Real Time (sec) = 0.015135
+
+===============
+=== Scipy Minimization
+=== Method: Newton-CG
+=== Initial value: (-1,1)
+=== Status: 0
+=== Message: Optimization terminated successfully.
+=== Function calls: 58
+Minimum: f(0.889949,0.79159): 0.0121288
+Cpu Time (sec) = 0
+Real Time (sec) = 0.00194311
+
+===============
+=== Scipy Minimization
+=== Method: dogleg
+=== Initial value: (-1,1)
+=== Status: 0
+=== Message: Optimization terminated successfully.
+=== Function calls: 23
+Minimum: f(1,0.999999): 1.93082e-13
+Cpu Time (sec) = 0
+Real Time (sec) = 0.000808954
+
+===============
+=== Scipy Minimization
+=== Method: trust-ncg
+=== Initial value: (-1,1)
+=== Status: 0
+=== Message: Optimization terminated successfully.
+=== Function calls: 34
+Minimum: f(0.999994,0.999988): 3.31321e-11
+Cpu Time (sec) = 0.01
+Real Time (sec) = 0.00108385
+
+===============
+=== Scipy Minimization
+=== Method: trust-exact
+=== Initial value: (-1,1)
+=== Status: 0
+=== Message: Optimization terminated successfully.
+=== Function calls: 23
+Minimum: f(0.999998,0.999996): 1.36294e-11
+Cpu Time (sec) = 0
+Real Time (sec) = 0.00155115
+
+===============
+=== Scipy Minimization
+=== Method: trust-krylov
+=== Initial value: (-1,1)
+=== Status: 0
+=== Message: Optimization terminated successfully.
+=== Function calls: 39
+Minimum: f(0.99985,0.9997): 2.24112e-08
+Cpu Time (sec) = 0
+Real Time (sec) = 0.002496
+
+===============
+(int) 0

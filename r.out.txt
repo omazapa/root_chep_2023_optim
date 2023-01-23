@@ -1,0 +1,38 @@
+
+Processing r.C...
+Calling R with command result <- optim( initialparams, minfunction,mingradfunction, method='Nelder-Mead', control = list(ndeps=stepsizes,maxit=100000,trace=0,abstol=1.000000e-03),hessian=TRUE)
+Value at minimum =0.000313979
+Minimum: f(1.00334,1.00496): 0.000313979
+Cpu Time (sec) = 0.13
+Real Time (sec) = 0.133288
+
+===============
+Calling R with command result <- optim( initialparams, minfunction,mingradfunction, method='BFGS', control = list(ndeps=stepsizes,maxit=100000,trace=0,abstol=1.000000e-03),hessian=TRUE)
+Value at minimum =0.000112568
+Minimum: f(0.989443,0.979103): 0.000112568
+Cpu Time (sec) = 0
+Real Time (sec) = 0.000697136
+
+===============
+Calling R with command result <- optim( initialparams, minfunction,mingradfunction, method='CG', control = list(ndeps=stepsizes,maxit=100000,trace=0,abstol=1.000000e-03),hessian=TRUE)
+Value at minimum =3.67229e-12
+Minimum: f(1,1): 3.67229e-12
+Cpu Time (sec) = 0.04
+Real Time (sec) = 0.0388701
+
+===============
+Calling R with command result <- optim( initialparams, minfunction,mingradfunction, method='L-BFGS-B', control = list(ndeps=stepsizes,maxit=100000,trace=0,abstol=1.000000e-03),hessian=TRUE)
+Value at minimum =1.68393e-12
+Minimum: f(0.999999,0.999999): 1.68393e-12
+Cpu Time (sec) = 0
+Real Time (sec) = 0.00080514
+
+===============
+Calling R with command result <- optim( initialparams, minfunction,mingradfunction, method='SANN', control = list(ndeps=stepsizes,maxit=100000,trace=0,abstol=1.000000e-03),hessian=TRUE)
+Value at minimum =4
+Minimum: f(-1,1): 4
+Cpu Time (sec) = 0.2
+Real Time (sec) = 0.198748
+
+===============
+(int) 0
